@@ -12,7 +12,7 @@
     </div>
 
     <ul class="comments" id="comments">
-      <% @posts.each do |p| %>
+      <% @posts.reverse_each do |p| %>
         <li><%= p.comment %></li>
       <% end %>
     </ul>
