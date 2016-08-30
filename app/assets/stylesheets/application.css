@@ -35,7 +35,7 @@
  	border: none;
  	border-left: 2px solid #fff;
 
- 	font-size: 36px;
+ 	font-size: 28px;
  	padding: 20px;
  	width: 100%;
 
@@ -50,20 +50,22 @@
  }
 
  .btn {
- 	background: transparent;
+ 	background: #00f28f;
  	border: none;
 
- 	color: #00f28f;
+ 	color: #fff;
  	cursor: pointer;
 
- 	font-size: 36px;
+ 	font-size: 28px;
 
  	padding: 20px 24px;
+
+  transition: all 0.6s ease 0s
  }
 
  .btn:hover {
- 	background: #00f28f;
- 	color: #fff;
+ 	background: transparent;
+ 	color: #00f28f;
  }
 
  .comments {
@@ -75,6 +77,6 @@
  li {
  	padding-left: 20px;
  	border-left: 2px solid #000;
- 	font-size: 36px;
- 	margin: 0 0 36px;
+ 	font-size: 28px;
+ 	margin: 0 0 28px;
  }
